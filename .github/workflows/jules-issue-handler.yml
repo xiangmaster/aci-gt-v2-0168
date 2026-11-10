@@ -120,3 +120,6 @@ jobs:
                - Suggests next steps for a human maintainer.
             4. Stop. Do not modify any file. Do not open any pull request.
                Do not close the issue. Do not run git or gh.
+env:
+  GOOGLE_GEMINI_BASE_URL: ${{ vars.GOOGLE_GEMINI_BASE_URL }}
+  GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
